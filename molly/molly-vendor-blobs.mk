@@ -27,14 +27,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/molly/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/google/molly/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/google/molly/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
-    vendor/google/molly/proprietary/lib/hw/audio.primary.molly.so:system/lib/hw/audio.primary.molly.so \
     vendor/google/molly/proprietary/lib/hw/gralloc.tegra4.so:system/lib/hw/gralloc.tegra4.so \
     vendor/google/molly/proprietary/lib/hw/hdmi_cec.tegra4.so:system/lib/hw/hdmi_cec.tegra4.so \
     vendor/google/molly/proprietary/lib/hw/hwcomposer.tegra4.so:system/lib/hw/hwcomposer.tegra4.so \
     vendor/google/molly/proprietary/lib/hw/keystore.molly.so:system/lib/hw/keystore.molly.so \
     vendor/google/molly/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/google/molly/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
-	vendor/google/molly/proprietary/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
     vendor/google/molly/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
     vendor/google/molly/proprietary/lib/libcplconnectclient.so:system/lib/libcplconnectclient.so \
     vendor/google/molly/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
@@ -42,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/molly/proprietary/lib/libEGL_tegra_impl.so:system/lib/libEGL_tegra_impl.so \
     vendor/google/molly/proprietary/lib/libGLESv1_CM_tegra_impl.so:system/lib/libGLESv1_CM_tegra_impl.so \
     vendor/google/molly/proprietary/lib/libGLESv2_tegra_impl.so:system/lib/libGLESv2_tegra_impl.so \
-    vendor/google/molly/proprietary/lib/libmolly_audio.so:system/lib/libmolly_audio.so \
     vendor/google/molly/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
     vendor/google/molly/proprietary/lib/libnvavp.so:system/lib/libnvavp.so \
     vendor/google/molly/proprietary/lib/libnvblit.so:system/lib/libnvblit.so \

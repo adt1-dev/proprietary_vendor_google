@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/molly/proprietary/lib/libnvomxadaptor.so:system/lib/libnvomxadaptor.so \
     vendor/google/molly/proprietary/lib/libnvomxilclient.so:system/lib/libnvomxilclient.so \
     vendor/google/molly/proprietary/lib/libnvomx.so:system/lib/libnvomx.so \
-    vendor/google/molly/proprietary/lib/libnvos.so:system/lib/libnvos.so \
     vendor/google/molly/proprietary/lib/libnvparser.so:system/lib/libnvparser.so \
     vendor/google/molly/proprietary/lib/libnvrm_graphics.so:system/lib/libnvrm_graphics.so \
     vendor/google/molly/proprietary/lib/libnvrm.so:system/lib/libnvrm.so \

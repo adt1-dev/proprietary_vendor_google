@@ -18,6 +18,7 @@ $(call inherit-product, vendor/google/molly/molly-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
+    CanvasPackageInstaller \
     LeanbackIme \
     TungstenLEDService
 

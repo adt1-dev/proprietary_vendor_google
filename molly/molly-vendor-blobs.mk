@@ -86,6 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/molly/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
     vendor/google/molly/proprietary/lib/libremotecontrolservice.so:system/lib/libremotecontrolservice.so \
     vendor/google/molly/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/google/molly/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/google/molly/proprietary/lib/libtf_crypto_sst.so:system/lib/libtf_crypto_sst.so \
     vendor/google/molly/proprietary/lib/libtsechdcp.so:system/lib/libtsechdcp.so \
     vendor/google/molly/proprietary/lib/libtsec_wrapper.so:system/lib/libtsec_wrapper.so \

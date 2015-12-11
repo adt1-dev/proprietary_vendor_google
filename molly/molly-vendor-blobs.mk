@@ -96,7 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/molly/proprietary/vendor/firmware/mrvl/txpower_JP.bin:system/vendor/firmware/mrvl/txpower_JP.bin \
     vendor/google/molly/proprietary/vendor/firmware/mrvl/txpower_US.bin:system/vendor/firmware/mrvl/txpower_US.bin \
     vendor/google/molly/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/google/molly/proprietary/vendor/lib/hw/power.molly.so:system/vendor/lib/hw/power.molly.so \
     vendor/google/molly/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/google/molly/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/google/molly/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \

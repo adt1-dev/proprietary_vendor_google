@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/molly/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
     vendor/google/molly/proprietary/lib/libnvavp.so:system/lib/libnvavp.so \
     vendor/google/molly/proprietary/lib/libnvblit.so:system/lib/libnvblit.so \
+    vendor/google/molly/proprietary/lib/libnvcapclk.so:system/lib/libnvcapclk.so \
     vendor/google/molly/proprietary/lib/libnvcms.so:system/lib/libnvcms.so \
     vendor/google/molly/proprietary/lib/libnvcpl.so:system/lib/libnvcpl.so \
     vendor/google/molly/proprietary/lib/libnvddk_2d.so:system/lib/libnvddk_2d.so \

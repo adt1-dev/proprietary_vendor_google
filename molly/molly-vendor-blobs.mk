@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/google/molly/proprietary/bin/nvcgcserver:system/bin/nvcgcserver \
+    vendor/google/molly/proprietary/bin/tf_daemon:system/bin/tf_daemon \
     vendor/google/molly/proprietary/etc/DxDrmConfig.txt:system/etc/DxDrmConfig.txt \
     vendor/google/molly/proprietary/etc/enctune.conf:system/etc/enctune.conf \
     vendor/google/molly/proprietary/app/TungstenLEDService/lib/arm/libled_service_jni.so:system/app/TungstenLEDService/lib/arm/libled_service_jni.so \

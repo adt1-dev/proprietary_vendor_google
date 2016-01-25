@@ -18,8 +18,6 @@ $(call inherit-product, vendor/google/molly/molly-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
-    CanvasPackageInstaller \
-    LeanbackIme \
     TungstenLEDService
 
 # Prebuilt jars
@@ -31,10 +29,7 @@ PRODUCT_PACKAGES += \
     AtvRemoteService \
     GamepadPairingService \
     GlobalKeyInterceptor \
-    LeanbackLauncher \
-    Overscan \
-    RemoteControlService \
-    TV
+    Overscan
 
 # Prebuilt libs needed for compilation
 PRODUCT_PACKAGES += \

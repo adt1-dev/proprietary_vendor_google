@@ -19,52 +19,29 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),molly)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := AtvRemoteService
+LOCAL_MODULE := CanvasPackageInstaller
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := AtvRemoteService/AtvRemoteService.apk
+LOCAL_SRC_FILES := CanvasPackageInstaller/CanvasPackageInstaller.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := GamepadPairingService
+LOCAL_MODULE := LeanbackIme
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := GamepadPairingService/GamepadPairingService.apk
-LOCAL_CERTIFICATE := platform
+LOCAL_SRC_FILES := LeanbackIme/LeanbackIme.apk
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := GlobalKeyInterceptor
+LOCAL_MODULE := TungstenLEDService
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := GlobalKeyInterceptor/GlobalKeyInterceptor.apk
+LOCAL_SRC_FILES := TungstenLEDService/TungstenLEDService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Overscan
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := Overscan/Overscan.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := RemoteControlService
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := RemoteControlService/RemoteControlService.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 

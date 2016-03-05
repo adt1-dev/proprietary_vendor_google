@@ -68,4 +68,16 @@ LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := AndroidMediaShell
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := AndroidMediaShell/AndroidMediaShell.apk
+LOCAL_SRC_FILES := AndroidMediaShell/arm/libcast_media_1.0.so
+LOCAL_SRC_FILES := AndroidMediaShell/arm/libcast_shell_android.so
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
 endif

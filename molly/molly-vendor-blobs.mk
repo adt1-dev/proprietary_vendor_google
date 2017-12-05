@@ -83,10 +83,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/molly/proprietary/lib/libnvtvmr.so:system/lib/libnvtvmr.so \
     vendor/google/molly/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
     vendor/google/molly/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
-    vendor/google/molly/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/google/molly/proprietary/lib/libremotecontrolservice.so:system/lib/libremotecontrolservice.so \
     vendor/google/molly/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/google/molly/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/google/molly/proprietary/lib/libtf_crypto_sst.so:system/lib/libtf_crypto_sst.so \
     vendor/google/molly/proprietary/lib/libtsechdcp.so:system/lib/libtsechdcp.so \
     vendor/google/molly/proprietary/lib/libtsec_wrapper.so:system/lib/libtsec_wrapper.so \
@@ -94,9 +92,4 @@ PRODUCT_COPY_FILES += \
     vendor/google/molly/proprietary/vendor/firmware/mrvl/sd8797_uapsta.bin:system/vendor/firmware/mrvl/sd8797_uapsta.bin \
     vendor/google/molly/proprietary/vendor/firmware/mrvl/txpower_JP.bin:system/vendor/firmware/mrvl/txpower_JP.bin \
     vendor/google/molly/proprietary/vendor/firmware/mrvl/txpower_US.bin:system/vendor/firmware/mrvl/txpower_US.bin \
-    vendor/google/molly/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/google/molly/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/google/molly/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/google/molly/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/google/molly/proprietary/vendor/lib/mediadrm/libDxModularPluginNv.so:system/vendor/lib/mediadrm/libDxModularPluginNv.so \
-    vendor/google/molly/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/google/molly/proprietary/vendor/lib/mediadrm/libDxModularPluginNv.so:system/vendor/lib/mediadrm/libDxModularPluginNv.so

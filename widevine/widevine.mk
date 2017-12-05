@@ -16,6 +16,7 @@ PRODUCT_PACKAGES += \
                     libWVStreamControlAPI_L1 \
                     liboemcrypto \
                     libwvdrm_L1 \
+                    libwvm \
                     libwvdrmengine \
                     libdrmdecrypt \
 		    libstlport

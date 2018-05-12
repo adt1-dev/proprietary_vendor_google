@@ -17,11 +17,7 @@
 $(call inherit-product, vendor/google/molly/molly-vendor-blobs.mk)
 $(call inherit-product, vendor/google/molly/molly-vendor.mk)
 
-# Prebuilt APKs
-PRODUCT_PACKAGES += \
-    LeanbackIme
-
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
     LeanbackLauncher \
-    Overscan
+    TV

@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/molly/proprietary/etc/firmware/tegra11x/nvhost_tsec.fw:system/etc/firmware/tegra11x/nvhost_tsec.fw \
     vendor/google/molly/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/google/molly/proprietary/etc/permissions/nrdp.xml:system/etc/permissions/nrdp.xml \
+    vendor/google/molly/proprietary/lib/libatv_uinputbridge.so:system/lib/libatv_uinputbridge.so \
     vendor/google/molly/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/google/molly/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/google/molly/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
@@ -91,6 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/molly/proprietary/lib/libtsechdcp.so:system/lib/libtsechdcp.so \
     vendor/google/molly/proprietary/lib/libtsec_wrapper.so:system/lib/libtsec_wrapper.so \
     vendor/google/molly/proprietary/lib/libtungsten_led.so:system/lib/libtungsten_led.so \
+    vendor/google/molly/proprietary/priv-app/AtvRemoteService/lib/arm/libatv_uinputbridge.so:system/priv-app/AtvRemoteService/lib/arm/libatv_uinputbridge.so \
     vendor/google/molly/proprietary/vendor/firmware/mrvl/sd8797_uapsta.bin:system/vendor/firmware/mrvl/sd8797_uapsta.bin \
     vendor/google/molly/proprietary/vendor/firmware/mrvl/txpower_JP.bin:system/vendor/firmware/mrvl/txpower_JP.bin \
     vendor/google/molly/proprietary/vendor/firmware/mrvl/txpower_US.bin:system/vendor/firmware/mrvl/txpower_US.bin \
